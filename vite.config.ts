@@ -89,6 +89,7 @@ function authServerPlugin(): Plugin {
 }
 
 export default defineConfig({
+  base: './',
   plugins: [react(), viteSingleFile(), authServerPlugin()],
   server: {
     host: '0.0.0.0',
