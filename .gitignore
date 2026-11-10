@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+dist.zip
+홍시폰_V2_Standalone/
+홍시폰_V2_Standalone.zip
+
+# Environment & local files
+.env
+.env.local
+.env.*.local
+auth_state.json
+
+# IDE & Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.gemini/
+
+# OS files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Python & Cache
+__pycache__/
+*.py[cod]
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
